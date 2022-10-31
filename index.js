@@ -1,1 +1,2 @@
-alert("Welcome to JATO'S Offial Website")
+//alert("Welcome to JATO'S Offial Website")
+console.clear()

@@ -4,3 +4,12 @@
 .btc {
     font-weight: bold;
 }
+.regen {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+}
+.regen:hover {
+    color: blue;
+    transition: 0.4s;
+}
