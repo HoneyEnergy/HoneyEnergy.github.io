@@ -12,13 +12,16 @@ body {
     font-weight: bold;
 }
 .regen {
+    color: white;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     transition: 0.4s;
 }
 .regen:hover {
     color: blue;
+    text-decoration: none;
     transition: 0.4s;
-}
+} 
 .tel {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
