@@ -7,10 +7,9 @@ body {
 }
 .ti {
     font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
 }
-.btc {
-    font-weight: bold;
-}
+
 .regen {
     color: white;
     text-decoration: none;
@@ -22,13 +21,50 @@ body {
     text-decoration: none;
     transition: 0.4s;
 } 
-.tel {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+.mlink {
+    position: absolute;
+    margin-left: 1050px;
 }
-.mail {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+li {
+    float: left;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.cnt {
+    color: white;
+    transition: 0.7s;
+}
+.dnt {
+    color: white;
+    transition: 0.7s;
+}
+.gh {
+    color: white;
+    transition: 0.7s;
+}
+.lct {
+    color: white;
+    transition: 0.7s;
+}
+.cnt:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+.dnt:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+.gh:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+.lct:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+.downloadb {
+    position: absolute;
+    
 }
 @media all and (max-width: 500px) {
     body {
