@@ -79,6 +79,7 @@ li {
     background-color: transparent;
     transition: 0.7s;
 }
+
 @media all and (max-width: 500px) {
     body {
         background-repeat: no-repeat;
