@@ -1,0 +1,2 @@
+def indexhelp():
+    print(False)
