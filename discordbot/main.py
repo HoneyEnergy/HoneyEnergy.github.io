@@ -37,7 +37,7 @@ async def jthelp(ctx):
 `$info`
 `$web`
 `$donate`
-
+`$logo`
 **New Commands and other stuff commning soon**
 **If you want to help us please vist https://github.com/HoneyEnergy/HoneyEnergy.github.io Thank YOU :heart: **
 {ctx.author.mention}
@@ -49,4 +49,8 @@ async def donate(ctx):
 Bitcion: bc1q49m86y3qd8ts6uqnldhjeez65lyrqhjzqvrtny
 Monero: 43vBCrhEBN8ZHZsUQ6WAFAdjHUsbzo6H293E7DfpETRkZYttGFXfSFrUaRS62oYQE7AihVT3E6BMWQfw1FL7AEVuFCfeC3s
 """)
+@bot.command()
+async def logo(ctx):
+    await ctx.send("https://raw.githubusercontent.com/HoneyEnergy/HoneyEnergy.github.io/main/JOTA/logo.png")
+    return
 bot.run(TOKEN)
